@@ -1,0 +1,575 @@
+@font-face {
+  font-family: 'AutourOne-Regular';
+  src: url('../fonts/AutourOne-Regular.otf');
+}
+
+#content{
+	//background-image: url(../img/cambiemos_bg_full.jpg);
+	//background-image: url(../img/cambiemos_bg_full_2.jpg);
+	//background-size: cover;
+	//background-position: center center;
+	font-family: 'AutourOne-Regular';
+}
+
+#window{
+	position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+	background-image: url(../img/bg-loco_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#status_bar{
+	background-color: #f0efa0;
+	position: absolute;
+	left: 1%;
+	top: 1%;
+	width: 98%;
+	height: 13%;
+	z-index: 15;
+	color: white;
+	text-shadow: rgb(71, 71, 71) 2px 3px 2px;
+}
+
+	#status_bar .seconds{
+		position: absolute;
+		background-color: #fcce01;
+		width: 7%;
+		height: 80%;
+		top: 10%;
+		left: 1%;
+		box-shadow: inset 0px 0px 10px 0px #424242;
+		-webkit-box-shadow: inset 0px 0px 10px 0px #424242;
+		-moz-box-shadow: inset 0px 0px 10px 0px #424242;
+		-o-box-shadow: inset 0px 0px 10px 0px #424242;
+	}
+	
+	#status_bar .seconds_bar_container{
+		position: absolute;
+		background-color: #fcce01;
+		width: 60%;
+		height: 60%;
+		top: 20%;
+		left: 10%;
+		box-shadow: inset 0px 0px 10px 0px #424242;
+		-webkit-box-shadow: inset 0px 0px 10px 0px #424242;
+		-moz-box-shadow: inset 0px 0px 10px 0px #424242;
+		-o-box-shadow: inset 0px 0px 10px 0px #424242;
+	}
+	
+		#status_bar .seconds_bar{
+			background-color: #ec594d;
+			height: 80%;
+			width: 100%;
+			top: 10%;
+			position: absolute;
+		}
+		
+	#status_bar .pregunta_index{
+		position: absolute;
+		background-color: #fcce01;
+		width: 10%;
+		height: 80%;
+		top: 10%;
+		left: 72%;
+		box-shadow: inset 0px 0px 10px 0px #424242;
+		-webkit-box-shadow: inset 0px 0px 10px 0px #424242;
+		-moz-box-shadow: inset 0px 0px 10px 0px #424242;
+		-o-box-shadow: inset 0px 0px 10px 0px #424242;
+	}
+	
+	#status_bar .puntaje{
+		position: absolute;
+		background-color: #fcce01;
+		width: 15%;
+		height: 80%;
+		top: 10%;
+		left: 84%;
+		box-shadow: inset 0px 0px 10px 0px #424242;
+		-webkit-box-shadow: inset 0px 0px 10px 0px #424242;
+		-moz-box-shadow: inset 0px 0px 10px 0px #424242;
+		-o-box-shadow: inset 0px 0px 10px 0px #424242;
+	}
+	
+	#status_bar .points_gained{
+		opacity: 0;
+		position: absolute;
+		top: 10%;
+		left: 84%;
+		width: 15%;
+		height: 80%;
+	}
+	
+	#status_bar .time_points_gained{
+		opacity: 0;
+		position: absolute;
+		top: 25%;
+		left: 11%;
+		height: 49%;
+		width: 10%;
+	}
+	
+#game_data{
+	background-color: #f0efa0;
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	top: 10%;
+	left: 5%;
+	overflow: hidden;
+	box-shadow: 0px 0px 20px 5px #2E2E2E;
+	-webkit-box-shadow: 0px 0px 20px 5px #2E2E2E;
+	-moz-box-shadow: 0px 0px 20px 5px #2E2E2E;
+	-o-box-shadow: 0px 0px 20px 5px #2E2E2E;
+}
+
+	#game_data .title{
+		background-color: #FCCD01;
+		height: 20%;
+		color: rgba(0, 0, 0, 0.6);
+		text-shadow: rgba(255, 255, 255, 0.2) 3px 2px 3px;
+		box-shadow: 0px 0px 5px 5px #6B6B6B;
+		-webkit-box-shadow: 0px 0px 5px 5px #6B6B6B;
+		-moz-box-shadow: 0px 0px 5px 5px #6B6B6B;
+		-o-box-shadow: 0px 0px 5px 5px #6B6B6B;
+		font-size: 5vmin !important;
+	}
+	
+	#game_data .center{
+		height: 15%;
+		background-image: url(../img/loading.gif);
+		background-size: contain;
+		background-position: center right;
+		background-repeat: no-repeat;
+		width: 80%;
+		margin: 3% 10%;
+		text-align: left!important;
+		color: rgb(255, 150, 0);
+		font-size: 2.8vw;
+		text-shadow: rgb(107, 107, 107) 2px 2px 1px;
+		line-height: 11vh;
+	}
+	
+	#game_data .settings{
+		width: 40%;
+		height: 50%;
+		position: absolute;
+		left: 5%;
+	}
+	
+		#game_data .settings div{
+			height: 30%;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center left;
+			margin: 8% 0%;
+			text-align: right;
+			vertical-align: middle;
+			line-height: 11vh;
+			font-size: 1.5vw;
+		}
+	
+		#game_data .settings .tiempo_por_pregunta{
+			background-image: url(../img/time-9.png);
+		}
+		
+		#game_data .settings .cantidad_preguntas{
+			background-image: url(../img/question.png);
+		}
+	
+	#game_data .equipo{
+		width: 40%;
+		height: 50%;
+		position: absolute;
+		left: 55%;
+		overflow: hidden;
+	}
+	
+		#game_data .equipo_name{height: 20%;color: black!important; text-shadow: rgb(224, 224, 224) 1px 1px 0px;}
+		
+		#game_data .integrantes{height: 75%;margin: 0% 5%;}
+		
+			#game_data .integrantes .integrante{
+				height: 20%;
+				margin: 2% 0%;
+				background-repeat: no-repeat;
+				background-position: center left;
+				background-size: auto 100%;
+			}
+	
+	#game_data .start_counter{
+		display: none;
+		background-color: #ec594d;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 10%;
+		color: white;
+	}
+
+#pregunta{
+	position: absolute;
+	width: 90%;
+	height: 70%;
+	top: 20%;
+	left: 5%;
+	overflow: hidden;
+}
+
+	#pregunta .titulo{
+		background-color: #FCCD01;
+		height: 15%;
+		top: 1%;
+		left: 1%;
+		position: absolute;
+		width: 98%;
+		z-index: 5;
+		background-color: rgb(252, 206, 1);
+		text-shadow: rgb(224, 224, 224) 2px 2px 0px;
+		color: white;
+		-moz-box-shadow: inset 0px 0px 50px 0px #ABABAB,0px 0px 5px 5px #242424;
+		-o-box-shadow: inset 0px 0px 50px 0px #ABABAB,0px 0px 5px 5px #242424;
+		box-shadow: 0px 0px 5px 5px #242424;
+		-webkit-box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.52);
+		-moz-box-shadow: 0px 0px 5px 5px #242424;
+		-o-box-shadow: 0px 0px 5px 5px #242424;
+	}
+	
+	#pregunta .respuestas{
+		background-color: rgba(255, 255, 255, 0.48);
+		position: absolute;
+		top: 20%;
+		width: 98%;
+		left: 1%;
+		height: 83%;
+		overflow: auto;
+	}
+	
+		#pregunta .respuestas .respuesta{
+			margin: 1.5% 10%;
+			background-color: #FEB600;
+			width: 75%;
+			min-height: 15%;
+			padding: 0% 2.5%;
+			cursor: pointer;
+			box-shadow: 5px 5px 5px 0px #696969;
+			-webkit-box-shadow: 5px 5px 5px 0px #696969;
+			-moz-box-shadow: 5px 5px 5px 0px #696969;
+			-o-box-shadow: 5px 5px 5px 0px #696969;
+		}
+		
+		#pregunta .respuestas .respuesta.correcta{
+			background-color: #00FE9B;
+			width: 83%;
+			margin-left: 6%;
+		}
+		#pregunta .respuestas .respuesta.incorrecta{
+			width: 70%;
+			margin-left: 13%;
+			background-color: #ec594d;
+		}
+		#pregunta .respuestas .respuesta.marked{
+			background-color: #f0efa0;
+		}
+		
+#after_pregunta{
+	position: absolute;
+	z-index: 15;
+	width: 80%;
+	height: 70%;
+	background-color: #F0EFA0;
+	left: 10%;
+	top: 20%;
+	box-shadow: 1px 0px 20px 10px #242424;
+	-webkit-box-shadow: 1px 0px 20px 10px #242424;
+	-moz-box-shadow: 1px 0px 20px 10px #242424;
+	-o-box-shadow: 1px 0px 20px 10px #242424;
+}
+
+	#after_pregunta .head{
+		background-color: #FCCE01;
+		height: 15%;
+		box-shadow: 0px 0px 10px 5px #242424;
+		-webkit-box-shadow: 0px 0px 10px 5px #242424;
+		-moz-box-shadow: 0px 0px 10px 5px #242424;
+		-o-box-shadow: 0px 0px 10px 5px #242424;
+		color: #ec594d;
+		text-shadow: rgb(71, 71, 71) 3px 3px 3px;
+	}
+	
+	#after_pregunta.correcta .head{color: #00FE9B;}
+	#after_pregunta.incorrecta .head{color: #ec594d;}
+
+	#after_pregunta .body{height: 68%; position: relative;}
+	
+		#after_pregunta .body .image{
+			float: left;
+			width: 30%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 70% auto;
+		}
+		
+		#after_pregunta.correcta .body .image{background-image: url(../img/thumbs-up.png);}
+		#after_pregunta.incorrecta .body .image{background-image: url(../img/thumbs-down.png);}
+		
+		#after_pregunta .body .comentario{
+			float: left;
+			width: 70%;
+			padding: 2% 0%;
+			font-size: 5vmin;
+		}
+	
+	#after_pregunta .foot{
+		position: absolute;
+		bottom: 5%;
+		width: 94%;
+		background-color: #FFB600;
+		height: 12%;
+		left: 3%;
+		text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+	}
+	#after_pregunta.correcta .foot{color: #00FE9B;}
+	#after_pregunta.incorrecta .foot{color: #ec594d;}
+	
+#confirm_option{
+	position: absolute;
+    z-index: 15;
+    width: 50%;
+    height: 50%;
+    background-color: #F0EFA0;
+    left: 25%;
+    top: 25%;
+	box-shadow: 1px 0px 20px 10px #242424;
+	-webkit-box-shadow: 1px 0px 20px 10px #242424;
+	-moz-box-shadow: 1px 0px 20px 10px #242424;
+	-o-box-shadow: 1px 0px 20px 10px #242424;
+}
+
+	#confirm_option .head{
+		background-color: #FCCE01;
+		height: 15%;
+		box-shadow: 0px 0px 10px 5px #242424;
+		-webkit-box-shadow: 0px 0px 10px 5px #242424;
+		-moz-box-shadow: 0px 0px 10px 5px #242424;
+		-o-box-shadow: 0px 0px 10px 5px #242424;
+		color: white;
+		text-shadow: rgb(71, 71, 71) 3px 3px 3px;
+	}
+
+	#confirm_option .respuesta{
+		position: relative;
+		width: 100%;
+		padding: 5% 0%;
+		font-size: 5vmin;
+		text-align: center;
+	}
+	
+	#confirm_option .buttons{
+		position: absolute;
+		bottom: 0%;
+		width: 90%;
+		height: 20%;
+		padding: 0% 5%;
+		text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+	}
+	
+		#confirm_option .buttons a{
+			text-decoration: none;
+			color: white;
+			font-size: 3vmin;
+			padding: 2%;
+			width: 40%;
+			text-align: center;
+		}
+		#confirm_option .buttons .btn-no{background-color: #EC594D; float: left;}
+		#confirm_option .buttons .btn-si{background-color: #00FE9B; float: right;}
+		
+#confirm_option_button{
+	position: absolute;
+    z-index: 15;
+    width: 10%;
+    height: 20%;
+    background-color: #F0EFA0;
+	background-image: url(../img/flecha.png);
+	background-position: center center;
+	background-size: contain;
+	background-size: 80% auto;
+    background-repeat: no-repeat;
+    left: 100%;
+    top: 40%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px #242424;
+    -webkit-box-shadow: 0px 0px 10px 2px #242424;
+    -moz-box-shadow: 0px 0px 10px 2px #242424;
+    -o-box-shadow: 0px 0px 10px 2px #242424;
+}
+
+#contenido_a_estudiar{
+	position: absolute;
+    z-index: 15;
+    width: 88%;
+    height: 81%;
+    background-color: #F0EFA0;
+    left: 4%;
+    top: 5%;
+    overflow: auto;
+    padding: 1% 2%;
+    box-shadow: 0px 0px 20px 5px #242424;
+    -webkit-box-shadow: 0px 0px 20px 5px #242424;
+    -moz-box-shadow: 0px 0px 20px 5px #242424;
+    -o-box-shadow: 0px 0px 20px 5px #242424;
+}		
+		
+#scoreboard{
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	top: 5%;
+	left: 5%;
+	overflow: hidden;
+}
+
+	#scoreboard .title{height: 15%;color: rgb(255, 255, 255);  font-size: 50px; text-shadow: rgb(97, 97, 97) 3px 5px 2px;}
+	
+	#scoreboard .tab_buttons{height: 7%;}
+	
+		#scoreboard .tab_buttons div{
+			display: inline-block;
+			background-color: #DA9C00;
+			/* border: 3px solid black; */
+			width: 15%;
+			height: 100%;
+			cursor: pointer;
+			color: #AD7C01;
+			font-size: 1.5vw;
+			line-height: 5.5vh;
+			text-shadow: rgb(224, 224, 224) 1px 1px 0px;
+			text-align: center;
+			border-top-color: #AD443B;
+			border-left-color: #AD443B;
+			border-right-color: rgb(224, 224, 224);
+		}
+		#scoreboard .tab_buttons div.pressed{background-color: #FFB600;color: #CE9300;border-left-color: #CE9300;border-top-color: #CE9300;}
+		#scoreboard .tab_buttons div.general{}
+		#scoreboard .tab_buttons div.group{}
+	
+	#scoreboard table{
+		background-color: #f0efa0;
+		width: 100%;
+		height: 78%;
+		position: absolute;
+		border-spacing: 0;
+		border-collapse: collapse;
+	}
+	#scoreboard table.general{}
+	#scoreboard table.group{left: 100%;}
+	
+		#scoreboard table .head{
+			height: 10%;
+			background-color: #FFB600;
+			font-size: 1.3vw;
+			color: white;
+			font-weight: 100;
+			text-shadow: rgb(60, 60, 60) 3px 3px 3px;
+		}
+		
+			#scoreboard table .head th{}
+		
+		#scoreboard table .data{
+			font-size: 1.5vw;
+		}
+		
+			#scoreboard table .data td{
+				padding: 1%;
+			}
+		
+#background{
+	background-image: url(../img/bg-loco.jpg);
+	//background-image: url(../img/bg-loco_3.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+	//-webkit-animation:spin 20s linear infinite;
+    //-moz-animation:spin 20s linear infinite;
+   // animation:spin 20s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#black_overlay{
+	display: none;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+#bottom_bar{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: 10%;
+	background-color: rgba(255, 165, 0, 0.55);
+	z-index: 20;
+}
+
+	#bottom_bar button:active{
+		background-color: orange;
+	}
+	#bottom_bar button.pressed{
+		background-color: orange;
+	}
+
+	#bottom_bar #refreshPage{
+		position: absolute;
+		left: 1%;
+		top: 10%;
+		width: 5%;
+		height: 80%;
+		    font-size: 6vmin;
+	}
+	
+	#bottom_bar .username{
+		position: absolute;
+		right: 7%;
+		top: 10%;
+		width: 55%;
+		height: 80%;
+		line-height: 8vh;
+		font-size: 4vh;
+		text-align: right;
+	}
+	
+	#bottom_bar #backButton{
+		position: absolute;
+		right: 1%;
+		top: 10%;
+		width: 5%;
+		height: 80%;
+		font-size: 6vmin;
+	}
+	
+	#bottom_bar #show_contenido_button{
+		position: absolute;
+		left: 7%;
+		top: 10%;
+		width: 30%;
+		height: 80%;
+		font-size: 5vmin;
+	}

@@ -1,0 +1,137 @@
+{
+    "__config__": {
+        "name": "metalworks",
+        "resources": [
+            "./images/header-bg.png",
+            "./images/bg.png",
+			
+            "./images/bg-light-yellow.png",
+            "./images/bg-yellow.png",
+            "./images/bg-dark-orange.png",
+            "./images/bg-blue.png",
+            "./images/bg-turq.png",
+            "./images/bg-light-blue.png",
+            "./images/bg-black-alpha.png",
+            "./images/bg-orange.png",
+            "./images/bg-green.png",
+			
+            "./images/bg-loco.jpg",
+			
+            "./images/thumbs-up.png",
+            "./images/thumbs-down.png",
+			
+            "./images/bg-down.png",
+            "./images/btn-bg.png",
+            "./images/btn-bg-down.png",
+            "./images/btn-corner.png",
+            "./images/btn-line.png",
+            "./images/darkcnt-corner.png",
+            "./images/darkcnt-line.png",
+            "./images/line.png",
+            "./images/chk-checkmark.png",
+            "./images/radio-checkmark.png",
+            "../fonts/Skranji-Bold-40.fnt",
+            "../fonts/Calibri.fnt"
+        ]
+    },
+
+	
+	
+    "default": {
+        "scale": 1,
+        "padding": 2,
+        "font": {
+            "size": "20px",
+            "family": "Arial",
+            "color": "black"
+        }
+    },
+	
+	
+    "Header": {
+        "bg": "./images/bg-yellow.png",
+        "font": {
+            "color": "white"
+        }
+    },
+
+    "Button": {
+        "bg": { "default": "./images/btn-bg.png", "down": "./images/btn-bg-down.png" },
+        "bgTiling": "x",
+        "bgPadding": 2,
+        "corner": "./images/btn-corner.png",
+        "line": "./images/btn-line.png",
+        "font": {
+            "size": "20px",
+            "family": "Arial",
+            "color": "black"
+        }
+    },
+    "List": {
+        "bg": "./images/darkcnt-line.png",
+        "corner": "./images/darkcnt-corner.png",
+        "line": "./images/darkcnt-line.png"
+
+    },
+    "hListItem": {
+        "bg": { "default": "./images/btn-bg.png", "down": "./images/btn-bg-down.png" },
+        "bgTiling": "x",
+        "bgPadding": 2,
+        "corner": "",
+        "line": "./images/btn-line.png",
+        "font": {
+            "size": "20px",
+            "family": "Arial",
+            "color": "black"
+        }
+    },
+	
+	
+	"whiteContainer": {
+		"bg": {"default": "./images/bg.png"}
+    },
+	
+	"lightYellowContainer": {
+		"bg": {"default": "./images/bg-light-yellow.png"}
+    },
+	
+    "yellowContainer": {
+		"bg": {"default": "./images/bg-yellow.png"}
+    },
+	
+	"darkOrangeContainer": {
+		"bg": {"default": "./images/bg-dark-orange.png"}
+    },
+	
+	"turqContainer": {
+		"bg": {"default": "./images/bg-turq.png"}
+    },
+	
+	"lightBlueContainer": {
+		"bg": {"default": "./images/bg-light-blue.png"}
+    },
+	
+	"blackAlphaOverlay": {
+		"bg": {"default": "./images/bg-black-alpha.png"}
+    },
+	
+	"orangeContainer": {
+		"bg": {"default": "./images/bg-orange.png"}
+    },
+	
+	"greenContainer": {
+		"bg": {"default": "./images/bg-green.png"}
+    },
+	
+	"bgLoco": {
+		"bg": {"default": "./images/bg-loco.jpg"}
+    },
+	
+	"thumbsUp": {
+		"bg": {"default": "./images/thumbs-up.png"}
+    },
+
+	"thumbsDown": {
+		"bg": {"default": "./images/thumbs-down.png"}
+    }
+}

@@ -1,0 +1,55 @@
+2016-03-29 18:18:04 Notice: Notice (8): Undefined index: gender in [/var/www/html/app/View/Themed/Ubold/Partidas/jugar_html.ctp, line 569]
+Trace:
+include - APP/View/Themed/Ubold/Partidas/jugar_html.ctp, line 569
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 111
+
+2016-03-29 18:18:34 Notice: Notice (8): Undefined index: gender in [/var/www/html/app/View/Themed/Ubold/Partidas/jugar_html.ctp, line 569]
+Trace:
+include - APP/View/Themed/Ubold/Partidas/jugar_html.ctp, line 569
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 111
+
+2016-03-29 18:19:19 Notice: Notice (8): Undefined index: gender in [/var/www/html/app/View/Themed/Ubold/Partidas/jugar_html.ctp, line 569]
+Trace:
+include - APP/View/Themed/Ubold/Partidas/jugar_html.ctp, line 569
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 111
+
+2016-03-29 18:51:21 Notice: Notice (8): Undefined index: gender in [/var/www/html/app/View/Themed/Ubold/Partidas/jugar_html.ctp, line 589]
+Trace:
+include - APP/View/Themed/Ubold/Partidas/jugar_html.ctp, line 589
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 111
+
+2016-03-29 18:52:47 Notice: Notice (8): Undefined index: gender in [/var/www/html/app/View/Themed/Ubold/Partidas/jugar_html.ctp, line 589]
+Trace:
+include - APP/View/Themed/Ubold/Partidas/jugar_html.ctp, line 589
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 111
+
